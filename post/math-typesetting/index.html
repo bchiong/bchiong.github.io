@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Hugo Themes</title>
+    
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="generator" content="Hugo 0.59.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,500,800" rel="stylesheet">
+    
+      <link href='http://localhost:1313/css/belmu.css?1572267321958308000' rel='stylesheet' type="text/css" />
+      <link href='http://localhost:1313/css/main.css?1572267321958308000' rel='stylesheet' type="text/css" />
+    
+    
+    
+      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    
+
+    
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400,400i,600,900" rel="stylesheet">
+  </head>
+
+  <body class="ma0 ">
+    <div class="grid-layout-1">
+      <main class="main" role="main" id="mainContent">
+        
+  <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:<br></li>
+</ul>
+
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &quot;math.html&quot; . }}
+{{ end }}
+</code></pre>
+
+<ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project's configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
+</ul>
+
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>
+
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Inline math: <span  class="math">\( \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… \)</span></p>
+
+<p>Block math:</p>
+
+<p><span  class="math">\[
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+\]</span></p>
+
+        <div id="drawing"></div>
+      </main>
+      <footer class="-m-auto -border-top -em-08 -lineheight-1-3 footer -text-left">
+  
+  <div class="-text-center -print-hidden"><a href="cv.pdf" class="download"><span class="download-icon"></span> Download this as a pdf <span class="-em-07 ">(generated using node-html-pdf)</span></a>
+  </div>
+
+  <div class="-clearfix -text-center -print-only -p-top-3">
+      <em>This was generated using node-html-pdf, and is rather static. <br/>Please check out the online version where possible. <a href="/urlhere">Url here.</a>
+      </em>
+    </div>
+  <em class="-clearfix -text-center lastpublished -em-07">Last Published Monday, Oct 28, 2019, Portfolio upon request.</em>
+</footer>
+      </div>
+    </div>
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>
