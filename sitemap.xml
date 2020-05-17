@@ -3,113 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bchiong.github.io/categories/</loc>
+    <loc>https://gohugo.io/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/css/</loc>
+    <loc>https://gohugo.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/</loc>
+    <loc>https://gohugo.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/html/</loc>
+    <loc>https://gohugo.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/markdown/</loc>
+    <loc>https://gohugo.io/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/markdown-syntax/</loc>
+    <loc>https://gohugo.io/post/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/</loc>
+    <loc>https://gohugo.io/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/series/</loc>
+    <loc>https://gohugo.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/categories/syntax/</loc>
+    <loc>https://gohugo.io/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/</loc>
+    <loc>https://gohugo.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/themes/</loc>
+    <loc>https://gohugo.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/categories/themes/</loc>
+    <loc>https://gohugo.io/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bchiong.github.io/tags/privacy/</loc>
+    <loc>https://gohugo.io/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/rich-content/</loc>
+    <loc>https://gohugo.io/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/shortcodes/</loc>
+    <loc>https://gohugo.io/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/placeholder-text/</loc>
+    <loc>https://gohugo.io/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/text/</loc>
+    <loc>https://gohugo.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/math-typesetting/</loc>
+    <loc>https://gohugo.io/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/tags/emoji/</loc>
+    <loc>https://gohugo.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/post/emoji-support/</loc>
+    <loc>https://gohugo.io/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bchiong.github.io/about/</loc>
+    <loc>https://gohugo.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/index/</loc>
   </url>
   
 </urlset>

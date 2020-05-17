@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Hugo Themes</title>
+    <title>Benjamin Chiong CV</title>
     
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <meta name="generator" content="Hugo 0.59.0" />
+    <meta name="generator" content="Hugo 0.70.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,500,800" rel="stylesheet">
     
-      <link href='http://localhost:1313/css/belmu.css?1572761357652882800' rel='stylesheet' type="text/css" />
-      <link href='http://localhost:1313/css/main.css?1572761357652882800' rel='stylesheet' type="text/css" />
+      <link href='https://gohugo.io/css/belmu.css?1589721532203829000' rel='stylesheet' type="text/css" />
+      <link href='https://gohugo.io/css/main.css?1589721532203841000' rel='stylesheet' type="text/css" />
     
     
     
@@ -43,12 +43,9 @@
 <li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
 <li>Include the partial in your templates like so:<br></li>
 </ul>
-
-<pre><code>
-
-
-</code></pre>
-
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &#34;math.html&#34; . }}
+{{ end }}</code></pre>
 <ul>
 <li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project's configuration</li>
 <li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
@@ -78,16 +75,16 @@
       </main>
       <footer class="-m-auto -border-top -em-08 -lineheight-1-3 footer -text-left">
   
-  <div class="-text-center -print-hidden"><a href="cv.pdf" class="download"><span class="download-icon"></span> Download this as a pdf</a>
+  <div class="-text-center -print-hidden"><a href="cv.pdf" class="download"><span class="download-icon"></span> Download this as a pdf <span class="-em-07 ">(generated using node-html-pdf)</span></a>
   </div>
 
   <div class="-clearfix -text-center -print-only -p-top-3">
-      <em>Please check out the online version where possible. <a href="https://bchiong.github.io/">Url here.</a>
+      <em>This was generated using node-html-pdf, and is rather static. <br/>Please check out the online version where possible. <a href="/urlhere">Url here.</a>
       </em>
     </div>
-  <em class="-clearfix -text-center lastpublished -em-07">Last Published Sunday, Nov 3, 2019, Portfolio upon request.</em>
+  <em class="-clearfix -text-center lastpublished -em-07">Last Published Sunday, May 17, 2020, Portfolio upon request.</em>
 </footer>
       </div>
     </div>
-  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+  </body>
 </html>
